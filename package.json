@@ -1,0 +1,15 @@
+{
+  "name": "authflow",
+  "version": "1.0.0",
+  "description": "A backend project that lets users sign up, log in, reset passwords, and stay securely logged in with tokens.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "AYUSH RAWAT",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
