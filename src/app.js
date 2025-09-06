@@ -34,6 +34,11 @@ app.use(
   }),
 );
 
+// Importing the health check routes
+
+import healthcheckRouter from "./routes/healthcheck.routes.js";
+app.use("/api/v1/healthcheck", healthcheckRouter);
+
 //Setting the home page route
 app.get("/", (req, res) => {
   res.send("Welcome to the AuthFlow !!");
